@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="./assest/css/base.css">
+    <link rel="stylesheet" href="./assest/css/main.css">
+    <link rel="stylesheet" href="./assest/css/reponsive.css">
+    <title>Web bán hàng của tôi</title>
+</head>
+<body>
+
+    <div id="app">
+        <!-- Navbar section -->
+        <div id="navbar">
+
+            <!-- Logo -->
+            <div class="navbar__logo">
+                <a href="">
+                    <img src="./assest/img/Logo.png" alt="" class="logo__img">
+                </a>
+            </div>
+            <!-- End logo -->
+
+            <!-- Navbar -->
+            <div class="navbar__main">
+                
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <i class="fas fa-house-user navbar__home-icon"></i>
+                        <a href="" class="navbar__link">Trang chủ</a>
+                    </li>
+                    <li class="navbar__item navbar__catalog">
+                        <div class="catalog__container">
+                            <i class="fab fa-elementor navbar__catalog-icon"></i>
+                            <div class="navbar__link navbar__catalog-link">
+                                Danh mục
+                            </div>
+                            <!-- catalog-list -->
+                            <ul class="catalog__list">
+                                <li class="catalog__item">
+                                    <a href="#product__type-clothes">Quần Áo</a>
+                                </li>
+                                <li class="catalog__item">
+                                    <a href="#product__type-office">Bàn Ghế</a>
+                                </li>
+                                <li class="catalog__item">
+                                    <a href="#product__type-ghitar">Đàn GhiTar</a>
+                                </li>
+                            </ul>
+                            <div class="catalog__arrow"></div>
+                        </div>
+
+                    </li>
+                    <li class="navbar__item navbar__contact ">
+                        <i class="fas fa-mobile-alt contact__icon"></i>
+                        <a href="" class="navbar__link">Liên hệ</a>
+                    </li>
+                    <li class="navbar__item navbar__item-cart">
+                        <i class="fas fa-shopping-cart navbar__cart-icon"></i>
+                        <div class="navbar__link">Giỏ hàng</div>
+                    </li>
+                    
+                </ul>
+
+            </div>
+            <!-- end Navbar -->
+
+        </div>
+
+        <!-- Home Page -->
+        <div id="homepage">
+            <!-- Header -->
+            <div id="header">
+
+                <div class="header__logo">
+                    <a href="#">
+                        <img src="./assest/img/Logo.png" alt="" class="logo__img">
+                    </a>
+                </div>
+
+                <!-- search -->
+                <div class="search">
+                    <i class="fas fa-search search__icon"></i>
+                    <input name="search__input" type="text" class="search__input" placeholder="Nhập vào sản phẩm bạn muốn tìm kiếm ở đây">
+                    <i class="fas fa-sliders-h search__adjust"></i>
+                </div>
+                <!-- end search -->
+
+                <!-- Header personel information  -->
+                <div class="header__information">
+                    <ul class="information__list">
+
+                        <!-- notification -->
+                        <li class="information__item information__item--notification">
+                            <i class="fas fa-bell information__item--notification-icon"></i>
+                            Thông báo
+
+                            <!-- Number Notification -->
+                            <span class="number__notification"></span>
+
+                            <!-- List notification -->
+                            <ul class="notification__list">
+
+                                <!-- <li class="notification__item">
+                                    <h5 class="notification-time">13:24 27/9/2020</h5>
+                                    <div class="notification-body">
+                                        <div style="background-image:url(./assest/img/product/ghế.jpg)" class="notification__img"></div>
+                                        <div class="notification__description">
+                                            <h4 class="notification__name">Sản phẩm quý hiếm Sản phẩm quý hiếm</h4>
+                                            <p class="notification__paragram">chào các bạn đến với chúng tôi, chúng tôi rất hân hận được đón tiếp </p>
+                                        </div>
+                                        <i class="far fa-times-circle remove-notication"></i>
+                                    </div>
+                                </li> -->
+
+
+                            </ul>
+                            <!-- end list notification -->
+                        </li>
+                        <!--end notification -->
+
+                        <!-- list setting -->
+                        <li class="information__item information__setting">
+                            <i class="fas fa-cog information__setting-icon"></i>
+                            <span class="information__setting-value">Cài đặt</span>
+
+                            <!-- Setting web -->
+                            <ul class="setting__list">
+                                <li class="setting-item edit__product">
+                                    <i class="fas fa-cog edit__product-icon"></i>
+                                    Chỉnh sửa sản phẩm
+                                </li>
+                                <li class="setting-item edit__user-btn">
+                                    <i class="fas fa-user-cog edit__user-icon"></i>
+                                    Chỉnh sửa thông tin cá nhân
+                                </li>
+                                <li class="setting-item add__product-btn">
+                                    <i class="fas fa-cart-plus add__product-icon"></i>
+                                    Thêm sản phẩm
+                                </li>
+                            </ul>
+
+                        </li>
+                        <!-- end list setting -->
+
+                        <!-- list user -->
+                        <li class="information__item information__user">
+                            <!-- <div style="background-image: url(./assest/img/product/áo.jfif);" class="user__img"></div>
+                            <ul class="user__setting-list">
+                                <li class="user__setting-item">Thông tin cá nhân</li>
+                            </ul> -->
+                        </li>
+                        <!-- End list user -->
+
+                    </ul>
+                    <div class="border__arrow">
+                        <i class="far fa-arrow-alt-circle-left"></i>
+                    </div>
+                </div>
+                <!-- end Header personel information-->
+
+        </div>
+    </div>
+
+        <!-- Body -->
+        <div id="body">
+
+                <div class="grid wide">
+
+                    <!-- Navigation bar -->
+                    <div class="navigation__bar">
+                        <ul class="navigation__bar-list">
+                            <li class="navigation__bar-item">
+                                <a href="#product__type-clothes">Quần áo</a>
+                            </li>
+                            <li class="navigation__bar-item">
+                                <a href="#product__type-office">Bàn ghế</a>
+                            </li>
+                            <li class="navigation__bar-item">
+                                <a href="#product__type-ghitar">Đàn ghitar</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End navigation bar -->
+
+                    <!-- Home Product -->
+                    <div class="home__product">
+                        
+                        <div class="product__list">
+                            
+                            <!-- <div class="product__item product__width">
+                                
+                                <div class="product__container">  
+                                    <div style="background-image: url(./assest/img/AnhHuy.jpg);" class="product__img"></div>
+                                    <div class="product__describe">
+                                        <h4 class="product__name">Thử sức với chúng tôi 90 ngày thử sức với UX</h4>
+                                        <p class="product__paragram">Đây là 1 sản phẩm của chúng tôi chào mừng bạn đã tới dùng thử </p>
+                                        <div class="product__price">
+                                            <span class="product__price--new">$120</span>
+                                            <span class="product__price--old">$220</span>
+                                        </div>
+                                    </div>
+                                    <button class="remove__product-item">
+                                        <i class="fas fa-times"></i>
+                                    </button>
+                                    
+                                    <button class="edit__product-item-btn">
+                                        Chỉnh sửa sản phẩm
+                                    </button>
+                                </div>
+
+                            </div>  -->
+                            
+                            <h2 id="product__type-clothes" class="product__type-name">Quần áo</h2>
+
+                            <div title="clothes" class="product__type product__type-clothes">
+
+                            </div> 
+
+
+                            <h2 id="product__type-ghitar" class="product__type-name">Đàn</h2>
+                            <div title="ghitar" class="product__type product__type-ghitar">
+                                
+                            </div>
+
+
+                            <h2 id="product__type-office" class="product__type-name">Đồ dùng văn phòng</h2>
+                            <div title="office" class="product__type product__type-office">
+                                
+                            </div>
+
+                            <h2 id="product__type-search" class="product__type-name search__title close">Kết quả tìm kiếm</h2>
+
+                            <div title="search" class="product__type product__type-search close">
+
+                            </div>
+
+                        </div>
+
+                    </div>  
+                    <!-- End home product -->
+
+
+                </div>
+
+                <div class="contact__body-list">
+
+                    <div class="contact__body-item">
+                        <div class="contact-item__container contact__link-facebook">
+                            <a href="https://www.facebook.com/Tuanhuy0201" class="contact__link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                        <span class="contact__body">
+                            Liên hệ với chúng tôi qua FaceBook
+                        </span>
+
+                    </div>
+
+                    <div class="contact__body-item">
+
+                        <div class="contact-item__container  contact__link-phone">   
+                            <a href="0886223506" class="contact__link">
+                                <i class="fas fa-phone-volume"></i>
+                            </a>
+                        </div>
+                        <span class="contact__body">
+                            Liên hệ với chúng tôi qua số diện thoại
+                        </span>
+
+                    </div>
+
+                    <div class="contact__body-item">
+
+                        <div class="contact-item__container contact__link-instargram">   
+                            <a href="https://www.instagram.com/huytuan18/" class="contact__link">
+                                <i class="fab fa-instagram-square"></i>
+                            </a>
+                        </div>
+                        <span class="contact__body">
+                            Liên hệ với chúng tôi qua Instargram
+                        </span>
+            
+                    </div>
+
+
+        </div>
+
+        <!-- Footer -->
+        <div id="footer">
+            
+            <div class="footer__container">
+
+                <div class="footer__list">
+                    
+                    <div class="footer__item footer__data-20 ipad-col-6">
+                        <div class="footer__data">
+                            <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                            <ul class="list__describle">
+                                <li class="describle__item">
+                                    <a href="">
+                                        Trung tâm trợ giúp        
+                                    </a>
+                                </li>
+                                <li class="describle__item">
+                                        <a href="">
+                                            Thanh toán            
+                                        </a>
+                                </li>
+                                <li class="describle__item">
+                                    <a href="">
+                                        Vận chuyển
+                                    </a>
+                                </li>
+                                <li class="describle__item">
+                                    <a href="">
+                                        Chăm sóc khách hàng
+                                    </a>
+                                </li>
+                                <li class="describle__item">
+                                    <a href="">
+                                        Chính sách bảo hành
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__item footer__data-20 ipad-col-6">
+                        <div class="footer__data">
+                            <h3 class="footer__heading">Theo dõi và liên hệ với chúng tôi</h3>
+                            <ul class="list__describle">
+                                <li class="describle__item">
+                                    <a href="">
+                                        <i class="fab fa-facebook"></i>
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li class="describle__item">
+                                    <a href="">
+                                        <i class="fab fa-instagram-square"></i>
+                                        Instargram
+                                    </a>
+                                </li>
+                                <li class="describle__item">
+                                    <a href="">
+                                        <i class="fab fa-twitter-square"></i>
+                                        twitter
+                                    </a>
+                                </li>
+                                <li class="describle__item">
+                                    <a href="tel:0886223506">
+                                        <i class="fas fa-phone-alt"></i>
+                                        0886223506
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__item footer__data-20 ipad-col-6">
+                        <div class="footer__data">
+                            <h3 class="footer__heading">Về chúng tôi</h3>
+                            <ul class="list__describle">
+                                <li class="describle__item">
+                                    <a href="">
+                                        Giới thiệu về chúng tôi
+                                    </a>
+                                </li>
+                                <li class="describle__item">
+                                    <a href="">
+                                        Chính sách
+                                    </a>
+                                </li>
+                                <li class="describle__item">
+                                    <a href="">
+                                        Liên hệ với truyền thông
+                                    </a>
+                                 </li>
+                                <li class="describle__item">
+                                    <a href="">
+                                        Plash Sales
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__item footer__data-40 ipad-col-6">
+                        <div class="footer__data">
+                            <h3 class="footer__heading">Đặt trụ sở</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29802.25195853805!2d105.7980416!3d20.981350399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1676981733218!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    
+
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- End footer -->
+
+
+    </div>
+
+    <!-- Show Item -->
+    <div class="show__item modal__show-item close">
+        <div class="container container__show-item">
+            <div class="grid wide item">
+                
+                <div class="item__overlay overlay__modal">
+                    
+                    <div class="item__list">
+                        
+                        <div class="col col-4">
+                            <div style="background-image: url(./assest/img/product/áo.jfif);" class="show__item-img show__product-item-img"></div>
+                            <div class="item__contact">
+                                <h4 class="header__contact">Liên hệ trực tiếp với chúng tôi </h4>
+                                <ul class="list__describle contack__link">
+                                    <li class="describle__item">
+                                        <a href="">
+                                            <i class="fab fa-facebook"></i>
+                                            Facebook
+                                        </a>
+                                    </li>
+                                    <li class="describle__item">
+                                        <a href="">
+                                            <i class="fab fa-instagram-square"></i>
+                                            Instargram
+                                        </a>
+                                    </li>
+                                    <li class="describle__item">
+                                        <a href="">
+                                            <i class="fab fa-twitter-square"></i>
+                                            Twitter
+                                        </a>
+                                    </li>
+                                    <li class="describle__item">
+                                        <a href="tel:0886223506">
+                                            <i class="fas fa-phone-alt"></i>
+                                            0886223506
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            .
+                        </div>
+
+                        <div class="col col-8">
+                            <div class="item__data">
+                                <h4 class="product__show-item__header">Bàn phím cơ quốc dân EK220</h4>
+                                <div class="price__container">
+                                    <div class="item__price">
+                                        <div class="show-product__price--old">2200000</div>
+                                        <div class="show-product__price--new">120000</div>
+                                        <span class="price__unit">VNĐ</span>
+                                        <span class="show__product-discount">46% giảm</span>
+                                    </div>
+                                    <div class="item__slogan">
+                                        Rẻ nhất tại shop của Huy Store
+                                    </div>
+                                </div>
+                                <div class="quantity__container">
+                                    <span class="header__quantity">Số lượng:</span>
+                                    <button class="product__quantity--minus quantity__btn">-</button>
+                                    <input type="number" class="item__quantity product__quantity" name="quantity" maxlength="2" value="1">
+                                    <button class="product__quantity--plus quantity__btn">+</button>
+                                </div>
+                                <div class="describle__overlay">
+                                    <h4 class="describleh__header">Chi tiết sản phẩm</h4>
+                                    <p class="show__product-describle">
+                                        1. 4 màu sắc thời trang và trẻ trung, tuyệt đẹp và Charming. 87 phím tiêu chuẩn, ký tự và ánh sáng mát mẻ giữa bảng.
+                                        2. Bàn phím cơ sử dụng Blue switch.  Cho âm thanh gõ giống như Đoạn Văn hay cảm giác cơ học, loại thân công tắc thoải mái và dễ sử dụng hơn. Âm thanh của nó sắc nét và có nhịp gõ mạnh mẽ. Nó chủ yếu phù hợp để đánh máy trong các trò chơi.
+                                        3. Bàn phím nổi sáu hàng thứ tư phù hợp với quỹ đạo chuyển động của ngón tay, gõ phím thoải mái và không dễ bị mỏi.
+                                        4. Cắm và chạy, đèn nền năng động và rực rỡ, các nhân vật và tấm giữa phát sáng để giải trí ban đêm, nhiều đèn Charming hơn.
+                                        5. NHỰA ABS vật liệu nhựa nhiệt dẻo, tinh tế Hai-màu sắc, ánh sáng-Truyền thiết kế, cảm giác thoải mái, không dễ dàng để được nhờn, và để lại dấu vân tay.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item__overlay-btn">
+                                <div class="product__total-amount">
+                                    <span class="product__total-index">Tổng tiền:</span>
+                                    <span class="product__total-value"></span>   
+                                    <span class="price__unit">VNĐ</span>
+                                </div>
+                                <button class="item__btn add__product-cart">
+                                    <i class="fas fa-cart-plus"></i>
+                                    Thêm vào giỏ hàng
+                                </button>
+
+                                <button class="item__btn buy__product-puchase">
+                                    Mua ngay
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="close__modal close__show-item">
+                    <i class="far fa-window-close"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End show item -->
+
+    <!-- Add Product -->
+    <div class="add__product close">
+        <div class="container container__add-product">
+            <div class="grid wide item">
+                
+                <div class="item__overlay overlay__modal">
+                    
+                    <ul class="item__list">
+                        <h2 class="add__product-header">Thêm sản phẩm</h2>
+                        <li class="col col-4">
+                            <div class="product-img__container show__img-modal">
+
+                            </div>
+                            <div class="chose-product__img">
+                                <label for="add__img-product" class="item__btn btn__add-img-product">Chọn ảnh</label>
+                                <input type="file" hidden id="add__img-product" required>
+                            </div>
+                        </li>
+
+                        <ul class="col col-8">
+
+                            <li class="col col-12 add__product-item">
+                                <div class="grid wide">
+                                    <div class="row">
+                                        <div class="col col-1"></div>
+                                        <div class="col col-3 edit__name">
+                                            Địa chỉ ảnh:
+                                        </div>
+                                        <div class="col col-1"></div>
+                                        <div class="col col-6 edit__input">
+                                            <input type="text" name ='link__img-product' class="product__link-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+    
+                            <li class="col col-12 add__product-item">
+                                <div class="grid wide">
+                                    <div class="row">
+                                        <div class="col col-1"></div>
+                                        <div class="col col-3 edit__name">
+                                            Tên sản phẩm:
+                                        </div>
+                                        <div class="col col-1"></div>
+                                        <div class="col col-6 edit__input">
+                                            <input type="text" name ='add__name-product'>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li class="col col-12 add__product-item">
+                                <div class="grid wide">
+                                    <div class="row">
+                                        <div class="col col-1"></div>
+                                        <div class="col col-3 edit__name">
+                                            Giá tiền cũ:
+                                        </div>
+                                        <div class="col col-1"></div>
+                                        <div class="col col-6 edit__input">
+                                            <input type="number" name ='add__old-price'>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+    
+                            <li class="col col-12 add__product-item">
+                                <div class="grid wide">
+                                    <div class="row">
+                                        <div class="col col-1"></div>
+                                        <div class="col col-3 edit__name">
+                                            Giá tiền mới:
+                                        </div>
+                                        <div class="col col-1"></div>
+                                        <div class="col col-6 edit__input">
+                                            <input type="number" name ='add__new-price'>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+    
+                            <li class="col col-12 add__product-item">
+                                <div class="grid wide">
+                                    <div class="row">
+                                        <div class="col col-1"></div>
+                                        <div class="col col-3 edit__name">
+                                            Mô tả sản phẩm:
+                                        </div>
+                                        <div class="col col-1"></div>
+                                        <div class="col col-6 edit__input">
+                                            <input type="text" name ='add__product-description'>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="col col-12 add__product-item">
+                                <div class="grid wide">
+                                    <div class="row">
+                                        <div class="col col-1"></div>
+                                        <div class="col col-3 edit__name">
+                                            Loại hàng:
+                                        </div>
+                                        <div class="col col-1"></div>
+                                        <div class="col col-6 edit__input">
+                                            <input type="text" name ='type-product' class="product__type">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                        <div class="setting-controler">
+                            <button class="item__btn add__btn">
+                                Thêm sản phẩm
+                            </button>
+                        </div>
+                    </ul>
+
+                </div>
+
+                <div class="close__modal close__setting-modal">
+                    <i class="far fa-window-close"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end add product -->
+
+    <!-- Edit Item -->
+    <div class="edit__product-modal close">
+        <div class="container">
+            <div class="grid wide item">
+                
+                <div class="item__overlay overlay__modal">
+                    
+                    <ul class="item__list">
+                        <h2 class="edit__product-header">Chỉnh sửa sản phẩm</h2>
+                        <li class="col col-4">
+                            <div class="edit-img__container show__img-modal">
+
+                            </div>
+                            <div class="edit__chose-product__img">
+                                <label for="edit__img-product" class="item__btn btn__edit-img-product">Chọn ảnh</label>
+                                <input type="file" hidden id="edit__img-product" required>
+                            </div>
+                        </li>
+
+                        <ul class="col col-8">
+
+                            <li class="col col-12 edit__product-item">
+                                <div class="grid wide">
+                                    <div class="row">
+                                        <div class="col col-1"></div>
+                                        <div class="col col-3 edit__name">
+                                            Địa chỉ ảnh:
+                                        </div>
+                                        <div class="col col-1"></div>
+                                        <div class="col col-6 edit__input">
+                                            <input type="text" name ='link__img-product' class="edit-product__link-img" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+    
+                            <li class="col col-12 edit__product-item">
+                                <div class="grid wide">
+                                    <div class="row">
+                                        <div class="col col-1"></div>
+                                        <div class="col col-3 edit__name">
+                                            Tên sản phẩm:
+                                        </div>
+                                        <div class="col col-1"></div>
+                                        <div class="col col-6 edit__input">
+                                            <input type="text" class="edit__name-input">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+    
+                            <li class="col col-12 edit__product-item">
+                                <div class="grid wide">
+                                    <div class="row">
+                                        <div class="col col-1"></div>
+                                        <div class="col col-3 edit__name">
+                                            Giá tiền cũ:
+                                        </div>
+                                        <div class="col col-1"></div>
+                                        <div class="col col-6 edit__input">
+                                            <input type="text" class="edit__old-price-input">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+    
+                            <li class="col col-12 edit__product-item">
+                                <div class="grid wide">
+                                    <div class="row">
+                                        <div class="col col-1"></div>
+                                        <div class="col col-3 edit__name">
+                                            Giá tiền mới:
+                                        </div>
+                                        <div class="col col-1"></div>
+                                        <div class="col col-6 edit__input">
+                                            <input type="text" class="edit__new-price-input">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="col col-12 edit__product-item">
+                                <div class="grid wide">
+                                    <div class="row">
+                                        <div class="col col-1"></div>
+                                        <div class="col col-3 edit__name">
+                                            Loại sản phẩm:
+                                        </div>
+                                        <div class="col col-1"></div>
+                                        <div class="col col-6 edit__input">
+                                            <input type="text" class="edit__type-product-input">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+    
+                            <li class="col col-12 edit__product-item">
+                                <div class="grid wide">
+                                    <div class="row">
+                                        <div class="col col-1"></div>
+                                        <div class="col col-3 edit__name">
+                                            Mô tả sản phẩm:
+                                        </div>
+                                        <div class="col col-1"></div>
+                                        <div class="col col-6 edit__input">
+                                            <input type="text" class="edit__description-input">
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                        </ul>
+                        <div class="setting-controler">
+                            <button class="item__btn edit__install-btn">
+                                Lưu thay đổi
+                            </button>
+                        </div>
+                    </ul>
+
+                </div>
+
+                <div class="close__modal close__setting-modal">
+                    <i class="far fa-window-close"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end edit product -->
+
+    <!-- show user profile -->
+    <div class="user__profile close">
+
+        <!-- <div class="container">
+
+            <div class="grid wide item">
+                
+                <div class="item__overlay overlay__modal">
+                    
+                    <div class="row profile__list">
+                        
+                        <div class="col col-4">
+                            <div style="background-image: url(./assest/img/AnhHuy.jpg);" class="show__item-img user-img-render"></div>
+                            <h4 class="user__name">Tạ Tuấn Huy</h4>
+                            <h4 class="edit__user-slogan">
+                                <i class="fas fa-pen"></i>
+                                Sửa thông tin cá nhân
+                            </h4>
+                        </div>
+
+                        <div class="col col-8">
+                            
+                            <div class="user__setting">
+
+                                <div class="page__user-title">
+                                    <h4 class="page__user-header">Hồ sơ của tôi</h4>
+                                    <p class="page__user-descriiption">Quản lí thông tin hồ sơ để bảo mật tài khoản</p>
+                                </div>
+
+                                <ul class="user__setting-body">
+                                    
+                                    <li class="col col-12 edit__product-item">
+                                        <div class="grid wide">
+                                            <div class="row">
+                                                <div class="col col-1"></div>
+                                                <div class="col col-3">
+                                                    <div style="background-image: url(./assest/img/AnhHuy.jpg);" class="user__setting-img"></div>
+                                                </div>
+                                                <div class="col col-1"></div>
+                                                <div class="col col-6 chose__img">
+                                                    <button class="item__btn btn__chose-img">Chọn ảnh</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col col-12 edit__product-item">
+                                        <div class="grid wide">
+                                            <div class="row edit__user-item">
+                                                <div class="col col-1"></div>
+                                                <div class="col col-3 edit__name-profile">
+                                                    Tên đăng nhập:
+                                                </div>
+                                                <div class="col col-1"></div>
+                                                <div class="col col-6 edit__input">
+                                                    <input type="text" disabled>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col col-12 edit__product-item">
+                                        <div class="grid wide">
+                                            <div class="row edit__user-item">
+                                                <div class="col col-1"></div>
+                                                <div class="col col-3 edit__name-profile">
+                                                    Họ và tên:
+                                                </div>
+                                                <div class="col col-1"></div>
+                                                <div class="col col-6 edit__input">
+                                                    <input type="text" disabled>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col col-12 edit__product-item">
+                                        <div class="grid wide">
+                                            <div class="row edit__user-item">
+                                                <div class="col col-1"></div>
+                                                <div class="col col-3 edit__name-profile">
+                                                    Email:
+                                                </div>
+                                                <div class="col col-1"></div>
+                                                <div class="col col-6 edit__input">
+                                                    <input type="email" disabled>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col col-12 edit__product-item">
+                                        <div class="grid wide">
+                                            <div class="row edit__user-item">
+                                                <div class="col col-1"></div>
+                                                <div class="col col-3 edit__name-profile">
+                                                    Số điện thoại:
+                                                </div>
+                                                <div class="col col-1"></div>
+                                                <div class="col col-6 edit__input">
+                                                    <input type="number" disabled>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col col-12 edit__product-item">
+                                        <div class="grid wide edit__user-item">
+                                            <div class="row">
+                                                <div class="col col-1"></div>
+                                                <div class="col col-3 edit__name-profile">
+                                                    Giới tính:
+                                                </div>
+                                                <div class="col col-1"></div>
+                                                <div class="col col-6 edit__sex">
+                                                    <input class"input__sex-profile" type="radio" name="sex" id="" value="Nam" disabled>
+                                                    <div class="edit__sex-name">Nam</div>
+                                                    <input class"input__sex-profile" type="radio" name="sex" id="" value="Nữ" disabled>
+                                                    <div class="edit__sex-name">Nữ</div>
+                                                    <input  class"input__sex-profile" type="radio" name="sex" id="" value="Khác" disabled>
+                                                    <div class="edit__sex-name">Khác</div>
+                                                </div>
+                                                <div class="col col-1"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="col col-12 edit__product-item">
+                                        <div class="grid wide edit__user-item">
+                                            <div class="row">
+                                                <div class="col col-1"></div>
+                                                <div class="col col-3 edit__name-profile">
+                                                    Ngày sinh:
+                                                </div>
+                                                <div class="col col-1"></div>
+                                                <div class="col col-6 edit__input">
+                                                    <input type="date" disabled>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                <div class="user__setting-controler">
+                                    <button class="item__btn user__setting-btn">
+                                        Chỉnh sửa
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="close__modal close__show-item">
+                    <i class="far fa-window-close"></i>
+                </div>
+
+            </div>
+
+        </div> -->
+
+    </div>
+    <!-- end show user profile -->
+
+
+    <!-- show product cart -->
+    <div class="product__cart-profile close">
+
+        <div class="container">
+
+            <div class="grid wide item">
+                
+                <div class="item__overlay overlay__modal">
+                    
+                    <div class="row product__details">
+
+                        <div class="col col-12">
+                            
+                            <div class="product__setting">
+
+                                <div class="page__user-title">
+                                    <h4 class="page__user-header">Đơn hàng của tôi</h4>
+                                    <div class="page__user-descriiption">
+                                        Thông tin đơn hàng
+                                    </div>
+                                </div>
+
+                                <ul class=" row user__setting-body">
+
+                                    <div class="col col-4">
+                                        <div style="background-image: url(./assest/img/AnhHuy.jpg);" class="show__product-img product-cart-profile__img"></div>
+                                        <h4 class="product__cart-name">Tạ Tuấn Huy</h4>
+                                        <button class="product__seting-cart">
+                                            <i class="fas fa-pen"></i>
+                                            Chỉnh sửa thông tin đơn hàng của tôi
+                                        </button>
+                                    </div>
+
+                                    <div class="col col-8">
+                                        
+                                        <li class="col col-12 edit__product-item">
+                                            <div class="grid wide">
+                                                <div class="row edit__user-item">
+                                                    <div class="col col-1"></div>
+                                                    <div class="col col-3 edit__name-profile">
+                                                        Tên sản phẩm:
+                                                    </div>
+                                                    <div class="col col-1"></div>
+                                                    <div class="col col-6 edit__input name__profile-product">
+                                                        <input type="text" class="name__profile-product-input" disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="col col-12 edit__product-item">
+                                            <div class="grid wide">
+                                                <div class="row edit__user-item">
+                                                    <div class="col col-1"></div>
+                                                    <div class="col col-3 edit__name-profile">
+                                                        Người nhận:
+                                                    </div>
+                                                    <div class="col col-1"></div>
+                                                    <div class="col col-6 edit__input">
+                                                        <input type="text" class="name__customer-input" disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+    
+                                        <li class="col col-12 edit__product-item">
+                                            <div class="grid wide">
+                                                <div class="row edit__user-item">
+                                                    <div class="col col-1"></div>
+                                                    <div class="col col-3 edit__name-profile">
+                                                        Địa chỉ nhận:
+                                                    </div>
+                                                    <div class="col col-1"></div>
+                                                    <div class="col col-6 edit__input">
+                                                        <input type="text" class="address__customer-input" disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+    
+                                        <li class="col col-12 edit__product-item">
+                                            <div class="grid wide">
+                                                <div class="row edit__user-item">
+                                                    <div class="col col-1"></div>
+                                                    <div class="col col-3 edit__name-profile">
+                                                        Số điện thoại:
+                                                    </div>
+                                                    <div class="col col-1"></div>
+                                                    <div class="col col-6 edit__input">
+                                                        <input type="number" class="phone-number__customer-input" disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+    
+                                        <li class="col col-12 edit__product-item">
+                                            <div class="grid wide edit__user-item">
+                                                <div class="row">
+                                                    <div class="col col-1"></div>
+                                                    <div class="col col-3 edit__name-profile">
+                                                        Số lượng:
+                                                    </div>
+                                                    <div class="col col-1"></div>
+                                                    <div class="col col-6 edit__sex">
+                                                        <div class="quantity__container-cart">
+                                                            <button class="quantity--minus quantity__btn quantity--minus-btn">-</button>
+                                                            <input type="number" class="item__quantity item__quantity-profile">
+                                                            <button class="quantity--plus quantity__btn quantity--plus-btn">+</button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col col-1"></div>
+                                                </div>
+                                            </div>
+                                        </li>
+    
+                                        <li class="col col-12 edit__product-item">
+                                            <div class="grid wide edit__user-item">
+                                                <div class="row">
+                                                    <div class="col col-1"></div>
+                                                    <div class="col col-3 edit__name-profile">
+                                                        Tổng tiền:
+                                                    </div>
+                                                    <div class="col col-1"></div>
+                                                    <div class="col col-6 edit__input">
+                                                        <input type="Number" class="product-profile__total-value" disabled>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                </ul>
+                                <div class="product__cart-detail">
+                                    <button class="item__btn product__cart-detail-btn">
+                                        Lưu chỉnh sửa
+                                    </button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="close__modal close__show-item">
+                    <i class="far fa-window-close"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- end product cart -->
+
+    <!-- Product__odered -->
+    <div class="product__odered close">
+
+        <div class="container">
+
+            <div class="grid wide item">
+                
+                <div class="item__overlay overlay__modal">
+                    
+                    <div class="row product__odered-details">
+
+                        <div class="col col-12">
+                            
+                            <div class="product__odered-show">
+
+                                <div class="page__user-title">
+                                    <h4 class="product__odered-header">Giỏ hàng của tôi</h4>
+                                </div>
+
+                                <div class="product__odered-classify">
+                                    
+                                    <ul class="product__odered-list__index">
+                                        <li class="product__odered-item__index odered-item__index-name">
+                                            Sản phẩm
+                                        </li>
+                                        <li class="product__odered-item__index odered-item__index-price">
+                                            Đơn giá
+                                        </li>
+                                        <li class="product__odered-item__index product__odered-item__quantity">
+                                            Số lượng
+                                        </li>
+                                        <li class="product__odered-item__index odered-item__index-total-value">
+                                            Tổng tiền
+                                        </li>
+                                        <li class="product__odered-item__index odered-item__index-setting">
+                                            Tùy chỉnh
+                                        </li>
+                                    </ul>
+
+                                    <!-- cart bought -->
+                                    <ul class="product__odered-list product__odered-list-bought">
+
+                                    </ul>
+                                    <!-- end cart bought -->
+
+                                    <!-- product add cart -->
+                                    <h4 class="product__odered-title">Giỏ hàng</h4>
+                                    <ul class="product__odered-list product__odered-list-cart">
+                  
+                                    </ul>
+                                    <!-- end product add cart -->
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="close__modal close__show-item">
+                    <i class="far fa-window-close"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- end Product__odered -->
+    
+    <script src="./main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,556 @@
+{
+  "user": [
+    {
+      "address": "Lào Cai",
+      "userImg": "url(./assest/img/product/AnhHuy.jpg)",
+      "userName": "Test",
+      "name": "Tạ Tuấn Huy",
+      "phone": "0886223506",
+      "email": "tatuanhuy0201@gmail.com",
+      "sex": "Khác",
+      "date": "02/01/2001",
+      "id": 1
+    }
+  ],
+  "product": [
+    {
+      "productImg": "url(./assest/img/product/đàn.jfif)",
+      "productName": "Đàn GhiTar",
+      "productOldPrice": "2134",
+      "productNewPrice": "123",
+      "productDescription": "Chaofjalnfhb oiajfi iu oiahjf oqaioh oaijfoa pja o0",
+      "productType": "ghitar",
+      "id": 1
+    },
+    {
+      "productImg": "url(./assest/img/product/đàn.jfif)",
+      "productName": "Ghế",
+      "productOldPrice": "18",
+      "productNewPrice": "20",
+      "productDescription": "KJHbkjancihqwwj auhnfc   oan oil kljah dôn nkla o ",
+      "id": 2,
+      "productType": "ghitar"
+    },
+    {
+      "productImg": "url(./assest/img/product/bàn.jpg)",
+      "productName": "Bàn gaming",
+      "productOldPrice": "300000",
+      "productNewPrice": "220000",
+      "productDescription": "Dây là bàn học dành cho học sinh sinh viên vô cùng tiện lợi",
+      "productType": "office",
+      "id": 3
+    },
+    {
+      "productImg": "url(./assest/img/product/áo.jfif)",
+      "productName": "Áo",
+      "productOldPrice": "120000",
+      "productNewPrice": "100000",
+      "productDescription": "Đây là áo chuyên dành cho đi biển",
+      "productType": "clothes",
+      "id": 4
+    },
+    {
+      "productImg": "url(./assest/img/product/đàn.jfif)",
+      "productName": "Ghế",
+      "productOldPrice": "18",
+      "productNewPrice": "20",
+      "productDescription": "KJHbkjancihqwwj auhnfc   oan oil kljah dôn nkla o ",
+      "id": 5,
+      "productType": "ghitar"
+    },
+    {
+      "productImg": "url(./assest/img/product/AnhHuy.jpg)",
+      "productName": "Huy",
+      "productOldPrice": "1",
+      "productNewPrice": "12",
+      "productDescription": "Xịn",
+      "productType": "clothes",
+      "id": 6
+    },
+    {
+      "productImg": "url(./assest/img/product/áo.jfif)",
+      "productName": "Áo mùa hè",
+      "productOldPrice": "1234",
+      "productNewPrice": "1234",
+      "productDescription": "Áo lễ hội mùa hè",
+      "productType": "clothes",
+      "id": 7
+    },
+    {
+      "productImg": "url(./assest/img/product/áo.jfif)",
+      "productName": "Áo mùa hè",
+      "productOldPrice": "1234",
+      "productNewPrice": "1234",
+      "productDescription": "Áo lễ hội mùa hè",
+      "productType": "clothes",
+      "id": 8
+    },
+    {
+      "productImg": "url(./assest/img/product/đàn.jfif)",
+      "productName": "Đàn GhiTar",
+      "productOldPrice": "2134",
+      "productNewPrice": "123",
+      "productDescription": "Chaofjalnfhb oiajfi iu oiahjf oqaioh oaijfoa pja o0",
+      "productType": "clothes",
+      "id": 9
+    }
+  ],
+  "productPurchased": [
+    {
+      "productImg": "url(./assest/img/product/áo.jfif)",
+      "productName": "Áo đi biển",
+      "productOldPrice": 200000,
+      "productNewPrice": 120000,
+      "productQuantity": "3",
+      "productTotalValue": "360000",
+      "id": 2
+    },
+    {
+      "productImg": "url(./assest/img/product/đàn.jfif)",
+      "productName": "Ghế",
+      "productOldPrice": 18,
+      "productNewPrice": 20,
+      "productQuantity": 1,
+      "productTotalValue": 120000,
+      "id": 3
+    },
+    {
+      "productImg": "url(./assest/img/product/đàn.jfif)",
+      "productName": "Đàn GhiTar",
+      "productOldPrice": "2134",
+      "productNewPrice": "123",
+      "productQuantity": "1",
+      "productTotalValue": "120000",
+      "productDescription": "Chaofjalnfhb oiajfi iu oiahjf oqaioh oaijfoa pja o0",
+      "id": 4
+    },
+    {
+      "productImg": "url(./assest/img/product/áo.jfif)",
+      "productName": "Áo đi biển",
+      "productOldPrice": 200000,
+      "productNewPrice": 120000,
+      "productQuantity": 3,
+      "productTotalValue": 360000,
+      "id": 5
+    },
+    {
+      "productImg": "url(./assest/img/product/ghế.jpg)",
+      "productName": "Ghế hòa phát",
+      "productOldPrice": "100000",
+      "productNewPrice": "900000",
+      "productQuantity": "1",
+      "productTotalValue": "120000",
+      "productDescription": "Đây là dòng ghế cao cấp và có giá cả phải chăng nhất trong phần khúc",
+      "id": 6
+    },
+    {
+      "productImg": "url(./assest/img/product/áo.jfif)",
+      "productName": "Áo ",
+      "productOldPrice": "120000",
+      "productNewPrice": "100000",
+      "productQuantity": "1",
+      "productTotalValue": "120000",
+      "productDescription": "Đây là áo chuyên dành cho đi biển",
+      "id": 7
+    },
+    {
+      "productImg": "url(./assest/img/product/bàn phím.jfif)",
+      "productName": "bàn phím hồng",
+      "productOldPrice": "",
+      "productNewPrice": "600000",
+      "productQuantity": "-1",
+      "productTotalValue": "-600000",
+      "productDescription": "đẹp",
+      "id": 8
+    },
+    {
+      "productImg": "url(./assest/img/product/đàn.jfif)",
+      "productName": "Ghế",
+      "productOldPrice": 100000,
+      "productNewPrice": 900000,
+      "productQuantity": 1,
+      "productTotalValue": 120000,
+      "id": 9
+    },
+    {
+      "productImg": "url(./assest/img/product/đàn.jfif)",
+      "productName": "Ghế",
+      "productOldPrice": 18,
+      "productNewPrice": 20,
+      "productQuantity": 1,
+      "productTotalValue": 120000,
+      "id": 10
+    },
+    {
+      "productImg": "url(./assest/img/product/đàn.jfif)",
+      "productName": "Đàn GhiTar",
+      "productOldPrice": 2134,
+      "productNewPrice": 123,
+      "productQuantity": 1,
+      "productTotalValue": 120000,
+      "id": 11
+    },
+    {
+      "productImg": "url(./assest/img/product/áo.jfif)",
+      "productName": "Áo mùa hè",
+      "productOldPrice": "1234",
+      "productNewPrice": "1234",
+      "productQuantity": "1",
+      "productTotalValue": "",
+      "productDescription": "Áo lễ hội mùa hè",
+      "id": 12
+    },
+    {
+      "productImg": "url(./assest/img/product/AnhHuy.jpg)",
+      "productName": "Huy",
+      "productOldPrice": "1",
+      "productNewPrice": "12",
+      "productQuantity": "1",
+      "productTotalValue": "",
+      "productDescription": "Xịn",
+      "id": 13
+    },
+    {
+      "productImg": "url(./assest/img/product/AnhHuy.jpg)",
+      "productName": "Huy",
+      "productOldPrice": "1",
+      "productNewPrice": "12",
+      "productQuantity": "1",
+      "productTotalValue": "",
+      "productDescription": "Xịn",
+      "id": 14
+    }
+  ],
+  "productCart": [
+    {
+      "productImg": "url(./assest/img/product/đàn.jfif)",
+      "productName": "Ghế",
+      "productOldPrice": "18",
+      "productNewPrice": "20",
+      "productQuantity": "1",
+      "productTotalValue": "120000",
+      "productDescription": "KJHbkjancihqwwj auhnfc   oan oil kljah dôn nkla o ",
+      "id": 1
+    },
+    {
+      "productImg": "url(./assest/img/product/đàn.jfif)",
+      "productName": "Ghế",
+      "productOldPrice": "18",
+      "productNewPrice": "20",
+      "productQuantity": "1",
+      "productTotalValue": "120000",
+      "productDescription": "KJHbkjancihqwwj auhnfc   oan oil kljah dôn nkla o ",
+      "id": 2
+    }
+  ],
+  "notificationList": [
+    {
+      "notificeName": "Bạn đã chỉnh sửa thông tin của mình",
+      "notificationImg": "url(./assest/img/product/AnhHuy.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin cá nhân của mình",
+      "notificationTime": "0:37 1/2/2023",
+      "id": 5
+    },
+    {
+      "notificeName": "Bạn đã mua sản phẩm Đàn GhiTar",
+      "notificationImg": "url(./assest/img/product/đàn.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong sản phẩm đã mua",
+      "notificationTime": "13:10 1/2/2023",
+      "id": 6
+    },
+    {
+      "notificeName": "Bạn đã xóa 1 sản phẩm",
+      "notificationImg": "",
+      "notificationDescription": "Sản phẩm của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "13:10 1/2/2023",
+      "id": 7
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Đàn GhiTar",
+      "notificationImg": "url(./assest/img/product/đàn.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "20:47 1/2/2023",
+      "id": 8
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "20:47 1/2/2023",
+      "id": 9
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm Huy",
+      "notificationImg": "url(./assest/img/product/AnhHuy.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "1:1 2/2/2023",
+      "id": 10
+    },
+    {
+      "notificeName": "Bạn đã chỉnh sửa thông tin của sản phẩm Bàn gaming",
+      "notificationImg": "url(./assest/img/product/bàn.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "1:17 2/2/2023",
+      "id": 11
+    },
+    {
+      "notificeName": "Bạn đã chỉnh sửa thông tin của sản phẩm Bàn gaming",
+      "notificationImg": "url(./assest/img/product/bàn.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "1:17 2/2/2023",
+      "id": 12
+    },
+    {
+      "notificeName": "Bạn đã chỉnh sửa thông tin của sản phẩm Huy",
+      "notificationImg": "url(./assest/img/product/AnhHuy.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "1:18 2/2/2023",
+      "id": 13
+    },
+    {
+      "notificeName": "Bạn đã chỉnh sửa thông tin của sản phẩm Đàn GhiTar",
+      "notificationImg": "url(./assest/img/product/đàn.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "1:18 2/2/2023",
+      "id": 14
+    },
+    {
+      "notificeName": "Bạn đã chỉnh sửa thông tin của sản phẩm Áo ",
+      "notificationImg": "url(./assest/img/product/áo.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "1:18 2/2/2023",
+      "id": 15
+    },
+    {
+      "notificeName": "Bạn đã thêm vào 1 sản phẩm Áo mùa hè",
+      "notificationImg": "url(./assest/img/product/áo.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong thông tin của sản phẩm",
+      "notificationTime": "1:35 2/2/2023",
+      "id": 16
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Áo mùa hè",
+      "notificationImg": "url(./assest/img/product/áo.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "7:49 2/2/2023",
+      "id": 17
+    },
+    {
+      "notificeName": "Bạn đã xóa 1 sản phẩm",
+      "notificationImg": "",
+      "notificationDescription": "Sản phẩm của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:6 2/2/2023",
+      "id": 18
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Huy",
+      "notificationImg": "url(./assest/img/product/AnhHuy.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "17:53 3/2/2023",
+      "id": 19
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Huy",
+      "notificationImg": "url(./assest/img/product/AnhHuy.jpg)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "17:53 3/2/2023",
+      "id": 20
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Áo mùa hè",
+      "notificationImg": "url(./assest/img/product/áo.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "17:53 3/2/2023",
+      "id": 21
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Ghế",
+      "notificationImg": "url(./assest/img/product/đàn.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "17:54 3/2/2023",
+      "id": 22
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Ghế",
+      "notificationImg": "url(./assest/img/product/đàn.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "17:54 3/2/2023",
+      "id": 23
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Ghế",
+      "notificationImg": "url(./assest/img/product/đàn.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "17:54 3/2/2023",
+      "id": 24
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Ghế",
+      "notificationImg": "url(./assest/img/product/đàn.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "17:54 3/2/2023",
+      "id": 25
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Ghế",
+      "notificationImg": "url(./assest/img/product/đàn.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "17:54 3/2/2023",
+      "id": 26
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Ghế",
+      "notificationImg": "url(./assest/img/product/đàn.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "17:54 3/2/2023",
+      "id": 27
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Ghế",
+      "notificationImg": "url(./assest/img/product/đàn.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "17:54 3/2/2023",
+      "id": 28
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Áo",
+      "notificationImg": "url(./assest/img/product/áo.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "18:2 3/2/2023",
+      "id": 29
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Áo",
+      "notificationImg": "url(./assest/img/product/áo.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "18:2 3/2/2023",
+      "id": 30
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Áo",
+      "notificationImg": "url(./assest/img/product/áo.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "18:2 3/2/2023",
+      "id": 31
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Áo",
+      "notificationImg": "url(./assest/img/product/áo.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "18:2 3/2/2023",
+      "id": 32
+    },
+    {
+      "notificeName": "Bạn đã mua mặt hàng Áo",
+      "notificationImg": "url(./assest/img/product/áo.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong đơn hàng đã mua của bạn",
+      "notificationTime": "18:4 3/2/2023",
+      "id": 33
+    },
+    {
+      "notificeName": "Bạn đã chỉnh sửa thông tin của đơn hàng đặt Áo",
+      "notificationImg": "url(./assest/img/product/áo.jfif)",
+      "notificationDescription": "Thông tin chi tiết của sản phẩm bạn vui lòng xem lại ở trong sản phẩm đã mua",
+      "notificationTime": "18:4 3/2/2023",
+      "id": 34
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:6 3/2/2023",
+      "id": 35
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:6 3/2/2023",
+      "id": 36
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:6 3/2/2023",
+      "id": 37
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:6 3/2/2023",
+      "id": 38
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:6 3/2/2023",
+      "id": 39
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:8 3/2/2023",
+      "id": 40
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:8 3/2/2023",
+      "id": 41
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:8 3/2/2023",
+      "id": 42
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:8 3/2/2023",
+      "id": 43
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:8 3/2/2023",
+      "id": 44
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:8 3/2/2023",
+      "id": 45
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:8 3/2/2023",
+      "id": 46
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:8 3/2/2023",
+      "id": 47
+    },
+    {
+      "notificeName": "Bạn đã hủy 1 đơn hàng thành công",
+      "notificationImg": "",
+      "notificationDescription": "Đơn hàng của bạn đã được xóa khỏi hệ thống",
+      "notificationTime": "18:8 3/2/2023",
+      "id": 48
+    }
+  ]
+}
